@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class ="logo"> Pratik <span>Shingolkar</span></a>
+        <i class="bx bx-menu" id = "menu-icon"></i>
+
+        <nav class ="navbar">
+            
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+          <h1>Hi, It's <span>Pratik</span></h1>
+          <h3>I love <span>Building Solutions</span></h3>
+          <p >I’m a creative engineer , problem solver and a software developer.  
+      I enjoy solving problems and building solutions through technology —  
+      from creating responsive web applications with the MERN stack to  
+      exploring the endless possibilities of Artificial Intelligence.  
+      With a strong foundation in Computer Science and a constant drive  
+      to learn, I aim to craft solutions that are simple, effective,  
+      and impactful.
+          </p>
+          <div class="social-icons">
+           <a href="https://github.com/ThePNS-63">
+            <i class="bx bxl-github"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/pratik-shingolkar-9a4008259/">
+            <i class="bx bxl-linkedin-square"></i>
+           </a>
+           <a href="#">
+            <i class="bx bxl-instagram-alt"></i>
+           </a>
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prateekshingolkar007@gmail.com&su=Hello%20Pratik&body=I%20would%20like%20to%20connect%20with%20you." 
+            target="_blank" 
+            aria-label="Send Email to Pratik">
+            <i class="bx bx-mail-send"></i>
+           </a>
+
+          </div>
+          <div class="btn-group">
+            <a href="https://github.com/ThePNS-63/Pratik-s-Resume" class="btn">My Resume</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+
+         <div class="home-img">
+            <img src="Portfoliopic.jpg" alt="My Profile Pic">
+         </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+         <img src="Portfoliopic.jpg" alt="My Profile Pic">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I come from a small village in Maharashtra , India carrying with me the values of perseverance and curiosity. From a young age, I’ve been fascinated by how technology can transform lives, and that fascination has only grown stronger with time.
+
+I’m an IT engineering student who loves turning ideas into real, working solutions. I enjoy exploring how technology can solve real problems.
+
+For me, coding isn’t just about writing lines of code — it’s about creativity, problem-solving, and innovation. Every project I take on is a step toward learning something new, improving myself, and creating something meaningful.
+
+With a fiery passion for growth and a relentless curiosity, I aspire to build solutions that make a difference and to keep learning every single day.
+Please have a look at my resume to view my professional status . I would be very happy working with you. Drop a message or connect with me if you find me interesting. See ya !</p>
+            <a href="https://github.com/ThePNS-63/Pratik-s-Resume" class="btn">Here's my resume</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+          <h2 class="heading">Services</h2>
+          
+          <div class="services-container">
+             <div class="services-box">
+                 <div class="services-info">
+                    <i class="bx bxs-brain"></i>
+                    <h4>Generative AI</h4>
+                    <p>I integrate Generative AI into real-world projects to add intelligence and automation.  
+                       I focus on applying AI models to create 
+                       smarter, more interactive solutions.</p>
+                 </div>
+             </div>
+
+             <div class="services-box">
+                 <div class="services-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>I design and build responsive, user-friendly interfaces using 
+      modern web technologies like HTML, CSS, JavaScript, and React.  
+      My focus is on creating seamless user experiences with clean, 
+      maintainable code.</p>
+                 </div>
+             </div>
+
+             <div class="services-box">
+                 <div class="services-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>I develop secure and scalable backend systems using Node.js and Express.  
+      From RESTful APIs to database management with MongoDB,  
+      I ensure efficient data handling and reliable server-side logic.</p>
+                 </div>
+             </div>
+          </div>
+    </section>
+    <section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form id="contact-form" action="https://formspree.io/f/xgvlpyaw" method="POST">
+    <div class="input-group">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="_replyto" placeholder="Email" required>
+      </div>
+      <div class="input-box">
+        <input type="tel" name="phone" placeholder="Phone Number">
+        <input type="text" name="subject" placeholder="Subject">
+      </div> 
+    </div>
+
+    <div class="input-group-2">
+      <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <input type="hidden" name="_subject" value="Portfolio Message">
+      <input type="submit" value="Send Message" class="btn">
+    </div>
+  </form>
+
+  <div id="form-status" style="text-align:center; margin-top:1rem; font-size:1.6rem;"></div>
+</section>
+
+    <footer class="footer">
+
+        <div class="social-icons">
+           <a href="https://github.com/ThePNS-63">
+            <i class="bx bxl-github"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/pratik-shingolkar-9a4008259/">
+            <i class="bx bxl-linkedin-square"></i>
+           </a>
+           <a href="#">
+            <i class="bx bxl-instagram-alt"></i>
+           </a>
+           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=prateekshingolkar007@gmail.com&su=Hello%20Pratik&body=I%20would%20like%20to%20connect%20with%20you." 
+           target="_blank"  
+           aria-label="Send Email to Pratik">
+           <i class="bx bx-mail-send"></i>
+</a>
+
+          </div>
+
+          <ul class="list">
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="#services">Servies</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <p class="copyright">
+           © Pratik Shingolkar | All Rights Reserved 
+          </p>
+    </footer>
+<script src ="script.js"></script>
+</body>
+</html>
